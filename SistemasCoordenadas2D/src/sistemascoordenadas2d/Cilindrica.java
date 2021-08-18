@@ -2,8 +2,8 @@ package sistemascoordenadas2d;
 
 
 public class Cilindrica {
-    private double radio;
-    private double angulo;
+    private double radio1;
+    private double angulo1;
     private double z;
     
     /* Crear 
@@ -15,31 +15,36 @@ public class Cilindrica {
     
     */
 
-    public Cilindrica(double radio, double angulo, double z) {
-        this.radio = radio;
-        this.angulo = angulo;
+    public Cilindrica(double radio1, double angulo1, double z) {
+        this.radio1 = radio1;
+        this.angulo1 = angulo1;
         this.z = z;
     }
     
     public Cilindrica() {
-        
+    }
+    
+    public Cilindrica(double radio1, double angulo1, double z) {
+        this.radio1 = radio1;
+        this.angulo1 = angulo1;
+        this.z = z;
     }
    
 
     public double getRadio() {
-        return radio;
+        return radio1;
     }
 
     public void setRadio(double radio) {
-        this.radio = radio;
+        this.radio1 = radio;
     }
 
     public double getAngulo() {
-        return angulo;
+        return angulo1;
     }
 
     public void setAngulo(double angulo) {
-        this.angulo = angulo;
+        this.angulo1 = angulo;
     }
 
     public double getZ() {
@@ -50,9 +55,9 @@ public class Cilindrica {
         this.z = z;
     }
     
-    public Cilindrica cilindrica_esferica(double r ,double ang1  ,double ang2) {
+    public Cilindrica cilindrica_esferica(double radio1 ,double angulo1  ,double z) {
         Cilindrica objc = new Cilindrica();
-        radio = 
+       
         return objc;
         
     }

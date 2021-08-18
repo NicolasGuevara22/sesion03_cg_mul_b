@@ -30,14 +30,19 @@ public class Esferica {
         this.ang2 = ang2;
     }
 
-    public Esferica(double r, double ang1, double ang2) {
-        this.r = r;
-        this.ang1 = ang1;
-        this.ang2 = ang2;
+    public Esferica Cilindrica(double radio1, double ang1, double ang2) {
+        Esferica obje = new Esferica();
+        
+        return obje;
     }
     
     public Esferica() {
-        
+    }
+    
+    public Esferica(double r, double ang1, double ang2 ) {
+        this.r = r;
+        this.ang1 = ang1;
+        this.ang2 = ang2;
     }
 
     
